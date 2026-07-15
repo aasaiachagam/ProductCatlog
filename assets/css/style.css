@@ -286,10 +286,18 @@ body{
   width:44px; height:44px; border-radius:50%; cursor:pointer; font-size:16px;
 }
 .lb-nav:hover{background:var(--marigold); color:var(--ink);}
-.lb-close{
+/*.lb-close{
   position:absolute; top:-18px; right:-6px; background:none; border:none; color:#fff;
   font-size:34px; cursor:pointer; line-height:1;
+}*/
+.lb-controls{
+  display:flex; align-items:center; gap:16px; margin-top:16px;
 }
+.lb-close{
+  background:none; border:none; color:#fff;
+  font-size:34px; cursor:pointer; line-height:1;
+}
+/*added above codes*/
 .lb-caption{color:var(--jasmine); margin-top:14px; text-align:center; font-family:var(--font-display); font-size:16px;}
 .lb-counter{display:block; font-family:var(--font-body); font-size:12px; opacity:0.7; margin-top:4px;}
 
@@ -325,6 +333,14 @@ body{
 @media (max-width:600px){
   .gallery.card-view{grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:14px;}
   .lb-image-wrap img{max-width:92vw; max-height:60vh;}
+  /* ADD inside @media (max-width:600px){ ... } */
+  .lb-stage{ flex-direction:column; }
+  .lb-controls{
+    position:fixed; left:0; right:0; bottom:14px;
+    justify-content:center; gap:28px; margin-top:0;
+  }
+  .lb-nav{ width:40px; height:40px; }
+/*new code added above */
   .toolbar{padding:12px 14px 0;}
 }
 
