@@ -62,7 +62,7 @@
 <div class="lightbox" id="lightbox" hidden>
   <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
   <div class="lightbox-inner">
-    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <!--button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
     <div class="lb-stage">
       <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">&#10094;</button>
       <div class="lb-image-wrap">
@@ -70,7 +70,20 @@
         <div class="watermark-overlay" aria-hidden="true"></div>
       </div>
       <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">&#10095;</button>
+    </div-->
+    <!-- REPLACE WITH -->
+    <div class="lb-stage">
+      <div class="lb-image-wrap">
+        <img id="lbImage" src="" alt="">
+        <div class="watermark-overlay" aria-hidden="true"></div>
+      </div>
     </div>
+    <div class="lb-controls">
+      <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">&#10094;</button>
+      <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+      <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">&#10095;</button>
+    </div>
+    <!-- REPLACE WITH -->
     <div class="lb-caption">
       <span id="lbTitle"></span>
       <span class="lb-counter" id="lbCounter"></span>
