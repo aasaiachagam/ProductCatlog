@@ -231,15 +231,27 @@ body{
 
 /* watermark overlay - shown on every product image so screenshots capture it */
 .watermark-overlay{
-  position:absolute; inset:0;
+   /*position:absolute; inset:0;
   pointer-events:none;
   background-image:repeating-linear-gradient(
     -30deg,
     transparent 0 60px,
-    rgba(255,255,255,0.16) 60px 61px
+    rgba(255, 255, 255, 0.051) 60px 61px
   );
   display:flex; flex-wrap:wrap; align-content:space-around; justify-content:space-around;
   overflow:hidden;
+  */
+  position: absolute; 
+  inset: 0; 
+  pointer-events: none; 
+  background-image: repeating-linear-gradient( -30deg, transparent 0 60px, rgba(255, 255, 255, 0.3) 60px 61px ); 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-content: space-around; 
+  justify-content: space-around; 
+  overflow: hidden;
+  /* Adds a vivid blending effect with the layer behind it */
+  mix-blend-mode: screen; 
 }
 .watermark-overlay::before{
   content:"";
