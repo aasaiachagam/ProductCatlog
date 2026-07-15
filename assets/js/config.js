@@ -25,7 +25,7 @@ window.APP_CONFIG = {
   //AIzaSyAkdcZHIXgViyMspRxq_dsMmTo56DFKXZA
   sheetId: "1IJZapLt2NGUSY7Hs-RsNzTVGNZBYrLpsX5QH3FNbyYE",
   sheetTabName: "Sheet1",
-  sheetApiKey: "AIzaSyAkdcZHIXgViyMspRxq_dsMmTo56DFKXZA",
+  sheetApiKey: "AIzaSyC7MQTXdGvCgBrWZLAct64gVAp5_WbUi7Y",
 
   shopName: "Aasai Achagam",
   tagline: "we print ur aasai.🤍😉"
