@@ -360,7 +360,8 @@
       showToast("Photos downloaded — attach them in the WhatsApp chat that opened.");
     }catch(err){
       console.error(err);
-      const shareText = `${item.title}\n${SHOP_NAME} — we print ur aasai..!\n${imgSrc(item, 0)}`;
+      //const shareText = `${item.title}\n${SHOP_NAME} — we print ur aasai..!\n${imgSrc(item, 0)}`; // this for sharing with img drive link
+      const shareText = `${item.title}\n${item.desc} \n${SHOP_NAME} — we print ur aasai..!\n Vist page to see more \n https://aasaiachagam.github.io/ProductCatlog/`;
       const waUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
       if(preOpenedTab){
         preOpenedTab.location.href = waUrl;
