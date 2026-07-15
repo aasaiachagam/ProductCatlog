@@ -28,5 +28,5 @@ window.APP_CONFIG = {
   sheetApiKey: "AIzaSyAkdcZHIXgViyMspRxq_dsMmTo56DFKXZA",
 
   shopName: "Aasai Achagam",
-  tagline: "we print ur aasai..!"
+  tagline: "we print ur aasai.🤍😉"
 };
