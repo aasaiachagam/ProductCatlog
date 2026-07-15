@@ -290,7 +290,7 @@ body{
 .lightbox[hidden]{display:none;}
 .lightbox-backdrop{position:absolute; inset:0; background:rgba(20,10,8,0.88);}
 .lightbox-inner{position:relative; z-index:2; max-width:92vw; max-height:92vh; display:flex; flex-direction:column; align-items:center;}
-.lb-stage{display:flex; align-items:center; gap:10px;}
+.lb-stage{display:flex; align-items:center; gap:10px;justify-content: center;width: 100%;}
 .lb-image-wrap{position:relative; max-width:80vw; max-height:74vh;}
 .lb-image-wrap img{max-width:80vw; max-height:74vh; object-fit:contain; border-radius:12px; display:block;}
 .lb-nav{
